@@ -31,6 +31,13 @@
             "aggregation" : "avg",
             "tags" : "app:carts,environment:dev",
             "upperSevere": 0
+        } 
+        {
+            "timeseriesId" : "com.dynatrace.builtin:servicemethod.responsetime",
+            "aggregation" : "avg",
+            "entityIds" : "SERVICE_METHOD_GROUP-7877183EA6CBB3FD",
+            "upperSevere" : 800.0,
+            "upperWarning" : 600.0
         }
     ]
 }
